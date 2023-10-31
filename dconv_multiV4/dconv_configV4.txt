@@ -1,0 +1,17 @@
+# ----------------
+# Crystal choice
+xtal=311
+#
+# -------------------
+# energy Calibration
+#
+# eBragg for Zn-K Si Mirr theo - exp 
+th0 = 18466664-18639977
+# -------------------
+# Column contents 
+#-------------------Columns for Xia ON
+# Content ["Energy", ebragg, I0_eh2  I1_eh2  IX_eh2  IR_eh2  c8  fluo01  fluo02  fluo03  fluo04  fluo05  fluo06  fluo07  fluo08 fluo09  fluo10  fluo11  fluo12  fluo13  I0_eh1  I1_eh1  IX_eh1  c9]
+columnsXiaOn=[0,2,5,6,7,8,9,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32]
+#-------------------Columns for Xia OFF
+# Content ["Energy", ebragg, I0_eh2  I1_eh2  IX_eh2  IR_eh2  c8  I0_eh1  I1_eh1  IX_eh1  c9]
+columnsXiaOFF=[0,2,5,6,7,8,9,20,21,22,23]
